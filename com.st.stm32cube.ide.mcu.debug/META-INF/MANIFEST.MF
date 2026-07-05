@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.2
+Build-Jdk-Spec: 21
+Automatic-Module-Name: com.st.stm32cube.ide.mcu.debug
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: com.st.stm32cube.ide.mcu.debug;singleton:=true
+Bundle-Version: 2.2.0.202410301457
+Bundle-Activator: com.st.stm32cube.ide.mcu.debug.MCUDebugPlugin
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.cdt.
+ launch,org.eclipse.cdt.core,org.eclipse.cdt.debug.core,org.eclipse.debu
+ g.ui,org.eclipse.cdt.dsf.gdb,org.eclipse.cdt.managedbuilder.core,org.ec
+ lipse.core.variables,org.eclipse.cdt.dsf,org.eclipse.cdt.dsf.ui,com.st.
+ stm32cube.ide.mcu.productdb,com.st.stm32cube.common.logger,com.st.stm32
+ cube.ide.mcu.ide,com.st.stm32cube.ide.mcu.projectnatures,com.st.stm32cu
+ be.ide.mcu.externaltools.openocd,com.st.stm32cube.ide.common.utils,com.
+ st.stm32cube.common.ecosystemintegration,com.st.stm32cube.ide.mcu.toolc
+ hain,com.st.stm32cube.ide.mcu.externaltools.stlink-gdb-server,org.eclip
+ se.ui.console,com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer
+Export-Package: com.st.stm32cube.ide.mcu.debug,com.st.stm32cube.ide.mcu.
+ debug.cubeprogfwutil,com.st.stm32cube.ide.mcu.debug.debugauth,com.st.st
+ m32cube.ide.mcu.debug.stlinkclient,com.st.stm32cube.ide.mcu.debug.stlin
+ kclient.ui.tableviewer,com.st.stm32cube.ide.mcu.debug.stlinkclient.ui.t
+ ableviewer.edit,com.st.stm32cube.ide.mcu.debug.stlinkclient.ui.tablevie
+ wer.model,com.st.stm32cube.ide.mcu.debug.stlinkfwutil,com.st.stm32cube.
+ ide.mcu.debug.ui.dialogs,com.st.stm32cube.ide.mcu.debug.ui.views,com.st
+ .stm32cube.ide.mcu.debug.utils
+Bundle-ActivationPolicy: lazy
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
