@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="com.st.stm32cube.ide.mcu.debug.stlink.RunStLinkUpgrade"
+            id="com.st.stm32cube.ide.mcu.debug.stlink.fwupgrade"
+            name="%command.name">
+      </command>
+   </extension>
+  <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="menu:help">
+         <command
+               commandId="com.st.stm32cube.ide.mcu.debug.stlink.fwupgrade"
+               style="push">
+         </command>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.cdt.debug.gdbjtag.core.JTagDevice">
+		<device
+         	class="com.st.stm32cube.ide.mcu.debug.stlink.StLinkDebugHardware"
+         	id="com.st.stm32cube.ide.mcu.debug.stlink"
+         	name="ST-LINK (ST-LINK GDB server)">
+     	</device>
+   </extension>
+
+</plugin>

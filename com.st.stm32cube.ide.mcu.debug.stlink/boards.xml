@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Boards>
+	<Board name="STM32VL_Discovery">
+		<Option id="debugmode" value="SWD" />
+		<Script location="FLASH" endian="Little-endian" file="gdb/st-link.script" />
+		<Script location="RAM" endian="Little-endian" file="gdb/st-link.script_ram_discovery" />
+	</Board>
+	<Board name="STM32L_Discovery">
+		<Option id="debugmode" value="SWD" />
+		<Script location="FLASH" endian="Little-endian" file="gdb/st-link.script" />
+		<Script location="RAM" endian="Little-endian" file="gdb/st-link.script_ram_discovery" />
+	</Board>
+	<Board name="STM322xG-EVAL">
+		<Option id="debugmode" value="SWD" />
+		<Script location="FLASH" endian="Little-endian" file="gdb/st-link_flash_parallel.script" />
+		<Script location="RAM" endian="Little-endian"  file="gdb/st-link.script_ram" />
+	</Board>
+	<Board name="STM3221G-EVAL">
+		<Option id="debugmode" value="SWD" />
+		<Script location="FLASH" endian="Little-endian" file="gdb/st-link_flash_parallel.script" />
+		<Script location="RAM" endian="Little-endian"  file="gdb/st-link.script_ram" />
+	</Board>
+	<Board name="STM324xG-EVAL">
+		<Option id="debugmode" value="SWD" />
+		<Script location="FLASH" endian="Little-endian" file="gdb/st-link_flash_parallel.script" />
+		<Script location="RAM" endian="Little-endian"  file="gdb/st-link.script_ram" />
+	</Board>
+	<Board name="STM32437I-EVAL">
+		<Option id="debugmode" value="SWD" />
+		<Script location="FLASH" endian="Little-endian" file="gdb/st-link_flash_parallel.script" />
+		<Script location="RAM" endian="Little-endian"  file="gdb/st-link.script_ram" />
+	</Board>
+	<Board name="STM32F4_Discovery">
+		<Option id="debugmode" value="SWD" />
+		<Script location="FLASH" endian="Little-endian" file="gdb/st-link_flash_parallel.script" />
+		<Script location="RAM" endian="Little-endian" file="gdb/st-link.script_ram_discovery" />
+	</Board>
+	<Board name="STM32F401_Discovery">
+		<Option id="debugmode" value="SWD" />
+		<Script location="FLASH" endian="Little-endian" file="gdb/st-link_flash_parallel.script" />
+		<Script location="RAM" endian="Little-endian" file="gdb/st-link.script_ram_discovery" />
+	</Board>
+	<Board name="STM32F429I_Discovery">
+		<Option id="debugmode" value="SWD" />
+		<Script location="FLASH" endian="Little-endian" file="gdb/st-link_flash_parallel.script" />
+		<Script location="RAM" endian="Little-endian" file="gdb/st-link.script_ram_discovery" />
+	</Board>
+    <Board name="STM32F412G_DISCO">
+        <Option id="debugmode" value="SWD" />
+        <Script location="FLASH" endian="Little-endian" file="gdb/st-link_flash_parallel.script" />
+        <Script location="RAM" endian="Little-endian" file="gdb/st-link.script_ram_discovery" />
+    </Board>
+    <Board name="STM32F413_DISCO">
+        <Option id="debugmode" value="SWD" />
+        <Script location="FLASH" endian="Little-endian" file="gdb/st-link_flash_parallel.script" />
+        <Script location="RAM" endian="Little-endian" file="gdb/st-link.script_ram_discovery" />
+    </Board>
+    <Board name="NUCLEO-F401RE">
+        <Option id="debugmode" value="SWD" />
+        <Script location="FLASH" endian="Little-endian" file="gdb/st-link_flash_parallel.script" />
+        <Script location="RAM" endian="Little-endian" file="gdb/st-link.script_ram_discovery" />
+    </Board>
+    <Board name="NUCLEO-F411RE">
+        <Option id="debugmode" value="SWD" />
+        <Script location="FLASH" endian="Little-endian" file="gdb/st-link_flash_parallel.script" />
+        <Script location="RAM" endian="Little-endian" file="gdb/st-link.script_ram_discovery" />
+    </Board>
+    <Board name="NUCLEO-F429ZI">
+        <Option id="debugmode" value="SWD" />
+        <Script location="FLASH" endian="Little-endian" file="gdb/st-link_flash_parallel.script" />
+        <Script location="RAM" endian="Little-endian" file="gdb/st-link.script_ram_discovery" />
+    </Board>
+    <Board name="NUCLEO-F446RE">
+        <Option id="debugmode" value="SWD" />
+        <Script location="FLASH" endian="Little-endian" file="gdb/st-link_flash_parallel.script" />
+        <Script location="RAM" endian="Little-endian" file="gdb/st-link.script_ram_discovery" />
+    </Board>
+    <Board name="NUCLEO-F446ZE">
+        <Option id="debugmode" value="SWD" />
+        <Script location="FLASH" endian="Little-endian" file="gdb/st-link_flash_parallel.script" />
+        <Script location="RAM" endian="Little-endian" file="gdb/st-link.script_ram_discovery" />
+    </Board>
+    <Board name="NUCLEO-F767ZI">
+        <Option id="debugmode" value="SWD" />
+        <Script location="FLASH" endian="Little-endian" file="gdb/st-link_flash_parallel.script" />
+        <Script location="RAM" endian="Little-endian" file="gdb/st-link.script_ram_discovery" />
+    </Board>
+    <Board name="STM32F723E_DISCO">
+        <Option id="debugmode" value="SWD" />
+        <Script location="FLASH" endian="Little-endian" file="gdb/st-link_flash_parallel.script" />
+        <Script location="RAM" endian="Little-endian" file="gdb/st-link.script_ram_discovery" />
+    </Board>
+	<Board name="STM32F746G_DISCO">
+		<Option id="debugmode" value="SWD" />
+		<Script location="FLASH" endian="Little-endian" file="gdb/st-link_flash_parallel.script" />
+		<Script location="RAM" endian="Little-endian" file="gdb/st-link.script_ram_discovery" />
+	</Board>
+	<Board name="STM32F769I_DISCO">
+		<Option id="debugmode" value="SWD" />
+		<Script location="FLASH" endian="Little-endian" file="gdb/st-link_flash_parallel.script" />
+		<Script location="RAM" endian="Little-endian" file="gdb/st-link.script_ram_discovery" />
+	</Board>
+	<Board name="STM32756G-EVAL">
+		<Option id="debugmode" value="SWD" />
+		<Script location="FLASH" endian="Little-endian" file="gdb/st-link_flash_parallel.script" />
+		<Script location="RAM" endian="Little-endian" file="gdb/st-link.script_ram" />
+	</Board>
+	<Board name="STM32W_MB851">
+		<Option id="debugmode" value="SWD" />
+		<Script location="FLASH" endian="Little-endian" file="gdb/st-link.script" />
+		<Script location="RAM" endian="Little-endian" file="gdb/st-link.script_ram_discovery" />
+	</Board>
+	<Board name="*">
+		<Option id="debugmode" value="SWD" />
+		<Script location="FLASH" endian="Little-endian"  file="gdb/st-link.script" />
+		<Script location="RAM" endian="Little-endian"  file="gdb/st-link.script_ram" />
+	</Board>
+</Boards>

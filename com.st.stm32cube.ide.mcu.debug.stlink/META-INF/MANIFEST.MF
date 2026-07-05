@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.2
+Build-Jdk-Spec: 21
+Automatic-Module-Name: com.st.stm32cube.ide.mcu.debug.stlink
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: com.st.stm32cube.ide.mcu.debug.stlink;singleton:=tr
+ ue
+Bundle-Version: 2.4.0.202411041438
+Bundle-Activator: com.st.stm32cube.ide.mcu.debug.stlink.Activator
+Bundle-Vendor: %providerName
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.debu
+ g.core,com.st.stm32cube.ide.mcu.debug.launch;bundle-version="1.0.0",org
+ .eclipse.cdt.debug.gdbjtag.core,com.st.stm32cube.ide.mcu.externaltools,
+ com.st.stm32cube.ide.mcu.externaltools.stlink-gdb-server,com.st.stm32cu
+ be.common.logger,org.eclipse.cdt.dsf;bundle-version="2.8.0",org.eclipse
+ .cdt.dsf.gdb;bundle-version="5.4.0",com.st.stm32cube.ide.mcu.debug,com.
+ st.stm32cube.ide.mcu.productdb,com.st.stm32cube.ide.mcu.externaltools.c
+ ubeprogrammer,com.st.stm32cube.ide.common.utils,org.eclipse.cdt.managed
+ builder.core,com.st.stm32cube.ide.mcu.ide,com.st.stm32cube.common.utils
+ ,org.eclipse.cdt.debug.core,com.st.stm32cube.common.ecosystemintegratio
+ n,com.st.stm32cube.ide.mcu.analytics,com.st.stm32cube.ide.mcu.debug.swv
+ ,com.st.stm32cube.ide.mcu.rtosproxy,com.st.stm32cube.ide.mcu.toolchain,
+ com.st.stm32cube.ide.common.services;bundle-version="2.2.0",org.eclipse
+ .core.variables,com.st.stm32cube.ide.mcu.targetadapter
+Bundle-ActivationPolicy: lazy
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
